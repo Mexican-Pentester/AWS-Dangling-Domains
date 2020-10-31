@@ -24,3 +24,11 @@ aws configure
 chmod +x dangRic.sh
 ./dangRic.sh
 ```
+
+### Results will look like this 
+
+<img width="885" alt="Screen Shot 2020-10-31 at 10 25 33" src="https://user-images.githubusercontent.com/73739470/97777745-86fecf80-1b72-11eb-830d-aa12a8874478.png">
+
+(beautified version)
+
+<img width="1342" alt="Screen Shot 2020-10-31 at 10 34 03" src="https://user-images.githubusercontent.com/73739470/97777749-8b2aed00-1b72-11eb-9d4c-ce5892137784.png">
