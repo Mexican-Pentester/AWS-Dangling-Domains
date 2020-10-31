@@ -3,6 +3,8 @@
 # This script attempts to locate potential dangling domains on AWS. You need AWS CLI installed and your keys configured
 # Make sure you insert your Bing API key below as well.
 # All the sleeps were necessary to not allocate the same IP address multiple times
+# Original Author dafthack modified + instructions by MexicanPentester 
+# https://github.com/Mexican-Pentester/AWS-Dangling-Domains
 
   COUNTER=0
          
