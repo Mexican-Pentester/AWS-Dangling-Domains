@@ -20,7 +20,7 @@ This was written by dafthack/aws-dangling-domain-discovery-tool.sh but was not w
 ```sh
 aws configure
 # put your keys aws 
-chmod +x dangRic.sh
+chmod +x AWS-Dangling-Domains.sh
 ./dangRic.sh
 ```
 
