@@ -35,7 +35,7 @@ do
 	else
 		echo "Releasing Address $IP with allocID: $ALLOCID"		
 		RELEASE=$(aws ec2 release-address --region us-west-1 --allocation-id $ALLOCID)
-		sleep 
+		sleep 10
 	fi
 	echo "$i"
 done
