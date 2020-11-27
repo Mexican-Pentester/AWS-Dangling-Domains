@@ -41,5 +41,5 @@ do
 done
 
 
-#curl -s -H "Ocp-Apim-Subscription-Key: fd115aa938fa4d9787fa0aff12dfaf8f" "https://api.bing.microsoft.com/v7.0/search?q=ip:54.215.84.14&count=1&mkt-en-us"
+#curl -s -H "Ocp-Apim-Subscription-Key: fd115aa938faXXXXX" "https://api.bing.microsoft.com/v7.0/search?q=ip:54.215.84.14&count=1&mkt-en-us"
 #aws ec2 release-address --public-ip 54.177.231.247
