@@ -22,10 +22,10 @@ do
    	fi
    	echo "Attempt number $COUNTER"
 	IP=$(aws ec2 allocate-address --region us-west-1 --output text --query 'PublicIp')
-	sleep 10
+	sleep 30
 	ALLOCID=$(aws ec2 describe-addresses --region us-west-1 --output text --query 'Addresses[0].AllocationId')
 	echo "Checking address: $IP with allocID: $ALLOCID"	
-	sleep 10
+	sleep 30
 	# Put your Bing v7.0 API key in the next line after Ocp-Apim-Subscription-Key
 	RESULTS=$(curl -s -H "Ocp-Apim-Subscription-Key: fd115aa938fa4d97xxxx" "https://api.bing.microsoft.com/v7.0/search?q=ip:$IP&count=1&mkt-en-us")
 	echo "$RESULTS"
@@ -35,7 +35,7 @@ do
 	else
 		echo "Releasing Address $IP with allocID: $ALLOCID"		
 		RELEASE=$(aws ec2 release-address --region us-west-1 --allocation-id $ALLOCID)
-		sleep 10
+		sleep 30
 	fi
 	echo "$i"
 done
